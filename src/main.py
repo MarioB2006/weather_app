@@ -4,7 +4,7 @@ from datetime import date,timedelta
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import style
-         
+
 style.use("dark_background")
 path_directory = Path(__file__).resolve().parent
 API_Key = (path_directory / "API_key.txt").read_text(encoding="utf-8")
