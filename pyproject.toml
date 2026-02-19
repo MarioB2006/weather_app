@@ -1,0 +1,5 @@
+[project]
+name="weather_app"
+version=0.2
+description="A simple weather forecast"
+authors=[{name = "Mario"}]
