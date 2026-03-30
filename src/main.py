@@ -7,7 +7,7 @@ from matplotlib import style
 
 style.use("dark_background")
 path_directory = Path(__file__).resolve().parent
-API_Key = (path_directory / "API_key.txt").read_text(encoding="utf-8")
+API_Key = (path_directory / "API_weather_key.txt").read_text(encoding="utf-8")  #insert the file name with a correct API-key here
 base_url="https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
 local_date=date.today()
 
