@@ -5,3 +5,5 @@ src/API_weather_key.txt
 src/gui.py
 src/main.spec
 src/weather_app.bat
+tests/__pycache__
+src/__pycache__
